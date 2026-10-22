@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ghosthunting:ghost_hunting_equipment",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "ghost_hunting_equipment",
+      "minecraft:display_name": "Ghost Hunting Equipment",
+      "minecraft:use_duration": 1,
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

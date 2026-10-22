@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ghosthunting:spirit_box",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:item": {
+        "item": "ghosthunting:spirit_box"
+      },
+      "minecraft:use_item": {
+        "on_use": {
+          "event": "ghosthunting:use_spirit_box"
+        }
+      }
+    }
+  }
+}

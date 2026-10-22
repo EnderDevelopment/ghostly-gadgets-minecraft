@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ghosthunting:ghost_hunting_equipment",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:item": {
+        "item": "ghosthunting:ghost_hunting_equipment"
+      },
+      "minecraft:use_item": {
+        "on_use": {
+          "event": "ghosthunting:use_ghost_hunting_equipment"
+        }
+      }
+    }
+  }
+}

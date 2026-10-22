@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ghosthunting:emf_reader",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:item": {
+        "item": "ghosthunting:emf_reader"
+      },
+      "minecraft:use_item": {
+        "on_use": {
+          "event": "ghosthunting:use_emf_reader"
+        }
+      }
+    }
+  }
+}
